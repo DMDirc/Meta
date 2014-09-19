@@ -1,0 +1,5 @@
+# Ignore submodules
+/client
+/parser
+/plugins
+/util
