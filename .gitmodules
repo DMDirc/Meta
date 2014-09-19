@@ -1,0 +1,16 @@
+[submodule "client"]
+	path = client
+	url = git@github.com:DMDirc/DMDirc.git
+	branch = master
+[submodule "plugins"]
+	path = plugins
+	url = git@github.com:DMDirc/Plugins.git
+	branch = master
+[submodule "util"]
+	path = util
+	url = git@github.com:DMDirc/Util.git
+	branch = master
+[submodule "parser"]
+	path = parser
+	url = git@github.com:DMDirc/Parser.git
+	branch = master
