@@ -1,8 +1,2 @@
-# Ignore submodules
-/client
-/parser
-/plugins
-/util
-
 # Gradle created directories
 /.gradle
