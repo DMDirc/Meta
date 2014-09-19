@@ -1,5 +1,5 @@
 #!/bin/sh
-# From Gerrit Code Review 2.4.2
+# From Gerrit Code Review 2.8.1
 #
 # Part of Gerrit Code Review (http://code.google.com/p/gerrit/)
 #
@@ -18,6 +18,8 @@
 # limitations under the License.
 #
 
+unset GREP_OPTIONS
+
 CHANGE_ID_AFTER="Bug|Issue"
 MSG="$1"
 
@@ -33,6 +35,11 @@ add_ChangeId() {
 		/^#/d
 	' "$MSG" | git stripspace`
 	if test -z "$clean_message"
+	then
+		return
+	fi
+
+	if test "false" = "`git config --bool --get gerrit.createChangeId`"
 	then
 		return
 	fi
@@ -152,7 +159,7 @@ add_ChangeId() {
 		if (unprinted) {
 			print "Change-Id: I'"$id"'"
 		}
-	}' "$MSG" > $T && mv $T "$MSG" || rm -f $T
+	}' "$MSG" > "$T" && mv "$T" "$MSG" || rm -f "$T"
 }
 _gen_ChangeIdInput() {
 	echo "tree `git write-tree`"
