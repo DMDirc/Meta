@@ -1,3 +1,20 @@
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
+
 task createWrapper(type: Wrapper) {
+    description 'Downloads and installs an up-to-date wrapper for gradle.'
     gradleVersion = '2.1'
+}
+
+task installCommitIdHook {
+    description 'Installs a git hook to insert Commit-Id lines into submodule commits.'
+
+    doLast {
+        def hook = Paths.get('etc/gerrit/commit-msg')
+
+        file('.git/modules/').eachDir() {
+            dir -> Files.copy(hook, dir.toPath().resolve('hooks').resolve('commit-msg'), REPLACE_EXISTING)
+        }
+    }
 }
