@@ -4,3 +4,8 @@
 
 # Downloaded private settings
 /etc/clover/clover.license
+
+# IDE generated files
+/atlassian-ide-plugin.xml
+/.idea/workspace.xml
+/.idea/libraries
