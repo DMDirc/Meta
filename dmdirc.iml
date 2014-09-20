@@ -8,6 +8,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="client" />
+    <orderEntry type="module" module-name="parser" />
+    <orderEntry type="module" module-name="plugins" />
+    <orderEntry type="module" module-name="util" />
   </component>
 </module>
 
