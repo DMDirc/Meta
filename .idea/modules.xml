@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/audio.iml" filepath="$PROJECT_DIR$/.idea/audio.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/calc.iml" filepath="$PROJECT_DIR$/.idea/calc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/client.iml" filepath="$PROJECT_DIR$/.idea/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/common.iml" filepath="$PROJECT_DIR$/.idea/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/conditional_execute.iml" filepath="$PROJECT_DIR$/.idea/conditional_execute.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/contactlist.iml" filepath="$PROJECT_DIR$/.idea/contactlist.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dcc.iml" filepath="$PROJECT_DIR$/.idea/dcc.iml" />
@@ -16,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/exec.iml" filepath="$PROJECT_DIR$/.idea/exec.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/freedesktop_notifications.iml" filepath="$PROJECT_DIR$/.idea/freedesktop_notifications.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/identd.iml" filepath="$PROJECT_DIR$/.idea/identd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/irc.iml" filepath="$PROJECT_DIR$/.idea/irc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/lagdisplay.iml" filepath="$PROJECT_DIR$/.idea/lagdisplay.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/logging.iml" filepath="$PROJECT_DIR$/.idea/logging.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mediasource_dbus.iml" filepath="$PROJECT_DIR$/.idea/mediasource_dbus.iml" />

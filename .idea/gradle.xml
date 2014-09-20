@@ -10,6 +10,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/client" />
             <option value="$PROJECT_DIR$/parser" />
+            <option value="$PROJECT_DIR$/parser/common" />
+            <option value="$PROJECT_DIR$/parser/irc" />
             <option value="$PROJECT_DIR$/plugins" />
             <option value="$PROJECT_DIR$/plugins/activewindow" />
             <option value="$PROJECT_DIR$/plugins/audio" />
