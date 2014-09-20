@@ -15,7 +15,7 @@ allprojects {
     apply plugin: 'clover'
 
     clover {
-        includeTasks = ['none']
+        includeTasks = rootProject.enableClover ? [] : ['none']
 
         licenseLocation = "$rootDir/etc/clover/clover.license"
 
