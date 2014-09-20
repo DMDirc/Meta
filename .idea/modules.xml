@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/activewindow.iml" filepath="$PROJECT_DIR$/.idea/activewindow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/audio.iml" filepath="$PROJECT_DIR$/.idea/audio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/calc.iml" filepath="$PROJECT_DIR$/.idea/calc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/client.iml" filepath="$PROJECT_DIR$/.idea/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/conditional_execute.iml" filepath="$PROJECT_DIR$/.idea/conditional_execute.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/contactlist.iml" filepath="$PROJECT_DIR$/.idea/contactlist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dcc.iml" filepath="$PROJECT_DIR$/.idea/dcc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dcop.iml" filepath="$PROJECT_DIR$/.idea/dcop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/debug.iml" filepath="$PROJECT_DIR$/.idea/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dmdirc.iml" filepath="$PROJECT_DIR$/dmdirc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dns.iml" filepath="$PROJECT_DIR$/.idea/dns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/exec.iml" filepath="$PROJECT_DIR$/.idea/exec.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/freedesktop_notifications.iml" filepath="$PROJECT_DIR$/.idea/freedesktop_notifications.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/identd.iml" filepath="$PROJECT_DIR$/.idea/identd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/lagdisplay.iml" filepath="$PROJECT_DIR$/.idea/lagdisplay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/logging.iml" filepath="$PROJECT_DIR$/.idea/logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mediasource_dbus.iml" filepath="$PROJECT_DIR$/.idea/mediasource_dbus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mediasource_dcop.iml" filepath="$PROJECT_DIR$/.idea/mediasource_dcop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mediasource_linux_title.iml" filepath="$PROJECT_DIR$/.idea/mediasource_linux_title.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mediasource_mplayer.iml" filepath="$PROJECT_DIR$/.idea/mediasource_mplayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mediasource_vlc.iml" filepath="$PROJECT_DIR$/.idea/mediasource_vlc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mediasource_windows.iml" filepath="$PROJECT_DIR$/.idea/mediasource_windows.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/nickcolours.iml" filepath="$PROJECT_DIR$/.idea/nickcolours.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/nma.iml" filepath="$PROJECT_DIR$/.idea/nma.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/notifications.iml" filepath="$PROJECT_DIR$/.idea/notifications.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/nowplaying.iml" filepath="$PROJECT_DIR$/.idea/nowplaying.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/osd.iml" filepath="$PROJECT_DIR$/.idea/osd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/osx_integration.iml" filepath="$PROJECT_DIR$/.idea/osx_integration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/parser.iml" filepath="$PROJECT_DIR$/.idea/parser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/parser_irc.iml" filepath="$PROJECT_DIR$/.idea/parser_irc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/parser_xmpp.iml" filepath="$PROJECT_DIR$/.idea/parser_xmpp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/parserdebug.iml" filepath="$PROJECT_DIR$/.idea/parserdebug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/plugins.iml" filepath="$PROJECT_DIR$/.idea/plugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/redirect.iml" filepath="$PROJECT_DIR$/.idea/redirect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/scriptplugin.iml" filepath="$PROJECT_DIR$/.idea/scriptplugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/serverlistdialog.iml" filepath="$PROJECT_DIR$/.idea/serverlistdialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/serverlists.iml" filepath="$PROJECT_DIR$/.idea/serverlists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/sessionlock.iml" filepath="$PROJECT_DIR$/.idea/sessionlock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/systray.iml" filepath="$PROJECT_DIR$/.idea/systray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tabcompletion_bash.iml" filepath="$PROJECT_DIR$/.idea/tabcompletion_bash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tabcompletion_mirc.iml" filepath="$PROJECT_DIR$/.idea/tabcompletion_mirc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/time.iml" filepath="$PROJECT_DIR$/.idea/time.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ui_swing.iml" filepath="$PROJECT_DIR$/.idea/ui_swing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/util.iml" filepath="$PROJECT_DIR$/.idea/util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/windowflashing.iml" filepath="$PROJECT_DIR$/.idea/windowflashing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/windowstatus.iml" filepath="$PROJECT_DIR$/.idea/windowstatus.iml" />
+    </modules>
+  </component>
+</project>
+
