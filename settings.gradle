@@ -1,0 +1,13 @@
+rootProject.name = 'dmdirc'
+
+include 'client'
+include 'util'
+include 'parser'
+include 'plugins'
+
+// Include all of the plugin projects
+project(':plugins').projectDir.eachDir() { File dir ->
+  if (new File(dir, "src").directory) {
+    include 'plugins:' + dir.name
+  }
+}
