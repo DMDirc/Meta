@@ -8,7 +8,7 @@ gradle.projectsEvaluated {
         p.configurations.each { conf ->
             def remove = []
             conf.dependencies.each { dep ->
-                if (dep.group == 'com.dmdirc' && dep.version == '+' && projectMap[dep.name] != null) {
+                if (dep.group =~ '^com.dmdirc' && dep.version == '+' && projectMap[dep.name] != null) {
                     remove += dep
                     replace += [conf: conf.name, dep: dep]
                 }
