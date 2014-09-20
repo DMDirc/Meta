@@ -6,19 +6,18 @@ gradle.projectsEvaluated {
         def replace = []
 
         p.configurations.each { conf ->
+            def remove = []
             conf.dependencies.each { dep ->
                 if (dep.group == 'com.dmdirc' && dep.version == '+' && projectMap[dep.name] != null) {
+                    remove += dep
                     replace += [conf: conf.name, dep: dep]
                 }
             }
+
+            conf.dependencies.removeAll(remove)
         }
 
         replace.each { rep ->
-            logger.info("Replacing ${p.name}'s dependency on $rep.dep.name with project reference")
-            p.configurations.all*.exclude(group: 'com.dmdirc', module: rep.dep.name)
-            rep.dep.properties.excludeRules.each { ex ->
-                p.configurations.all*.exclude(group: ex.group, module: ex.module)
-            }
             p.dependencies.add(rep.conf, projectMap[rep.dep.name])
         }
     }
