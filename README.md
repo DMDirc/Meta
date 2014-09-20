@@ -103,9 +103,9 @@ When running clover tasks, the build script will try and download our license
 from a private webserver. If your IP isn't whitelisted you will need to supply
 a username/password.
 
-To enable clover, set the enableClover property to a true-ish value:
+To enable clover, set the enableClover property to true value:
 
-    ./gradlew -PenableClover=1 cloverAggregateReports
+    ./gradlew -PenableClover=true cloverAggregateReports
 
 This will place a HTML report in `build/reports/clover/html`.
 
