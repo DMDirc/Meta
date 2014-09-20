@@ -21,15 +21,14 @@
     <orderEntry type="module" module-name="client" exported="" />
     <orderEntry type="library" exported="" name="Gradle: com.google.code.findbugs:jsr305:3.0.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.squareup.dagger:dagger-compiler:1.2.1" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.dmdirc.parser:irc:0.8-39-g830e54a-SNAPSHOT" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.squareup.dagger:dagger:1.2.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.squareup:javawriter:2.3.0" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: com.dmdirc.parser:common:0.8-38-gbfc363c-SNAPSHOT" level="project" />
     <orderEntry type="library" exported="" name="Gradle: javax.inject:javax.inject:1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.google.guava:guava:18.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.11" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.mockito:mockito-all:1.9.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="module" module-name="irc" exported="" />
   </component>
 </module>
 
