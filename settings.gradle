@@ -4,6 +4,8 @@ include 'client'
 include 'util'
 include 'parser'
 include 'plugins'
+include 'parser:common'
+include 'parser:irc'
 
 // Include all of the plugin projects
 project(':plugins').projectDir.eachDir() { File dir ->
