@@ -76,6 +76,12 @@ simply change to a directory and use git-review:
     > To ssh://user@dmdirc.com:29418/client
     > * [new branch]      HEAD -> refs/publish/master
 
+Gerrit is configured to require 'Change-Id' lines to ease the process of pushing
+updated patchsets. The root gradle project contains a task to automatically
+install a commit message hook for each of the submodules; just execute:
+
+    ./gradlew installCommitIdHook
+
 ### Meta and Util repositories
 
 For this repository and the util repository we welcome pull requests on GitHub.
