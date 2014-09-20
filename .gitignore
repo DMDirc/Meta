@@ -1,2 +1,6 @@
 # Gradle created directories
 /.gradle
+/build
+
+# Downloaded private settings
+/etc/clover/clover.license

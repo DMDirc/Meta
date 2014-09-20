@@ -1,0 +1,33 @@
+task getCloverCredentials << {
+    def licenseDir = rootDir.toPath().resolve('etc').resolve('clover')
+    java.nio.file.Files.createDirectories(licenseDir);
+
+    def target = licenseDir.resolve('clover.license')
+    if (!java.nio.file.Files.exists(target)) {
+        println 'Attempting to download clover license...'
+        new URL('http://www.dmdirc.com/private/clover.license').withInputStream{
+            i -> target.withOutputStream { it << i }
+        }
+    }
+}
+
+allprojects {
+    apply plugin: 'clover'
+
+    clover {
+        licenseLocation = "$rootDir/etc/clover/clover.license"
+
+        report {
+            html = true
+        }
+    }
+
+    repositories.mavenCentral()
+
+    dependencies {
+        clover group: 'com.atlassian.clover', name: 'clover', version: '4.0.0'
+    }
+
+    cloverGenerateReport.dependsOn ':getCloverCredentials'
+}
+
