@@ -41,3 +41,19 @@ tests in the project:
 
 [Currently the gradle scripts do not generate a functioning client... we're
  working on that still!]
+
+Miscellaneous
+--------------------------------------------------------------------------------
+
+### Running Clover
+
+Clover is disabled by default as it requires a license file we can't distribute.
+When running clover tasks, the build script will try and download our license
+from a private webserver. If your IP isn't whitelisted you will need to supply
+a username/password.
+
+To enable clover, set the enableClover property to a true-ish value:
+
+    ./gradlew -PenableClover=1 cloverAggregateReports
+
+This will place a HTML report in `build/reports/clover/html`.
