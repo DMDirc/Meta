@@ -14,6 +14,7 @@ import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
 
 apply from: 'clover.gradle'
 apply from: 'local-dependency-change.gradle'
+apply from: 'javadoc.gradle'
 
 task createWrapper(type: Wrapper) {
     description 'Downloads and installs an up-to-date wrapper for gradle.'
