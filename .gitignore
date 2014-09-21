@@ -5,7 +5,11 @@
 # Downloaded private settings
 /etc/clover/clover.license
 
-# IDE generated files
+# IDEA generated files
 /atlassian-ide-plugin.xml
 /.idea/workspace.xml
+/.idea/uiDesigner.xml
 /.idea/libraries
+
+#Netbeans generated files
+/.nb-gradle/private/
