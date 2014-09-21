@@ -1,0 +1,12 @@
+apply plugin: 'java'
+
+gradle.projectsEvaluated {
+    task aggregateJavadoc(type: Javadoc) {
+        source allprojects.collect { it.sourceSets.main.allJava }
+        classpath = files(allprojects.collect { it.sourceSets.main.compileClasspath })
+        destinationDir = file("${buildDir}/docs/javadoc")
+
+        println source.asPath
+    }
+}
+
