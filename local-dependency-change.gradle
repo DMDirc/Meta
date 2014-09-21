@@ -10,7 +10,7 @@ gradle.projectsEvaluated {
             conf.dependencies.each { dep ->
                 if (dep.group =~ '^com.dmdirc' && dep.version == '+' && projectMap[dep.name] != null) {
                     remove += dep
-                    replace += [conf: conf.name, dep: dep]
+                    replace += [conf: conf.name, dep: dep, transitive: dep.transitive]
                 }
             }
 
@@ -18,7 +18,7 @@ gradle.projectsEvaluated {
         }
 
         replace.each { rep ->
-            p.dependencies.add(rep.conf, projectMap[rep.dep.name])
+            p.dependencies.add(rep.conf, projectMap[rep.dep.name], { transitive rep.transitive })
         }
     }
 }
