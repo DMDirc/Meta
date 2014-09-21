@@ -5,8 +5,6 @@ gradle.projectsEvaluated {
         source allprojects.collect { it.sourceSets.main.allJava }
         classpath = files(allprojects.collect { it.sourceSets.main.compileClasspath })
         destinationDir = file("${buildDir}/docs/javadoc")
-
-        println source.asPath
     }
 }
 
