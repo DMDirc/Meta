@@ -21,14 +21,3 @@ task createWrapper(type: Wrapper) {
     gradleVersion = '2.1'
 }
 
-task installCommitIdHook {
-    description 'Installs a git hook to insert Commit-Id lines into submodule commits.'
-
-    doLast {
-        def hook = Paths.get('etc/gerrit/commit-msg')
-
-        file('.git/modules/').eachDir() {
-            dir -> Files.copy(hook, dir.toPath().resolve('hooks').resolve('commit-msg'), REPLACE_EXISTING)
-        }
-    }
-}

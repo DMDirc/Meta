@@ -55,39 +55,9 @@ directory this repository is checked out to.
 Contributing
 --------------------------------------------------------------------------------
 
-### Client, Parser and Plugin repositories
-
-At present, we use Gerrit to perform code reviews for most of our repositories.
-This is tied fairly heavily into our continuous integration infra-structure.
-To push a change to Gerrit you'll need an account created by an admin - the
-easiest way to do that is to pop in to
-[#DMDirc on Quakenet](irc://quakenet.org/DMDirc) and we'll help you out. Once
-you have an account, the easiest way to push is to install the
-[git-review](https://github.com/openstack-infra/git-review) tool. You then
-simply change to a directory and use git-review:
-
-    cd client
-    git review
-    > remote: Resolving deltas: 100% (6/6)
-    > remote: Processing changes: new: 1, refs: 1, done
-    > remote:
-    > remote: New Changes:
-    > remote:   http://gerrit.dmdirc.com/12345
-    > remote:
-    > To ssh://user@dmdirc.com:29418/client
-    > * [new branch]      HEAD -> refs/publish/master
-
-Gerrit is configured to require 'Change-Id' lines to ease the process of pushing
-updated patchsets. The root gradle project contains a task to automatically
-install a commit message hook for each of the submodules; just execute:
-
-    ./gradlew installCommitIdHook
-
-### Meta and Util repositories
-
-For this repository and the util repository we welcome pull requests on GitHub.
-The tests for the module will run on Travis CI, and the pull request will be
-updated with the result.
+We welcome pull requests on GitHub for all the DMDirc repositories. The tests
+for the module will run on CircleCI, and the pull request will be updated with
+the result.
 
 Please bear in mind that these are just unit tests for the individual modules —
 they don't test how your change will affect DMDirc itself. It's good practice
