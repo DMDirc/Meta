@@ -1,0 +1,15 @@
+---
+language: java
+
+jdk:
+ - openjdk7
+ - oraclejdk7
+ - oraclejdk8
+
+install:
+ - git submodule update --init --remote --recursive
+ - ./gradlew assemble
+
+script:
+ - ./gradlew check -x findbugsMain -x findbugsTest
+
