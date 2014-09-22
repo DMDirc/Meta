@@ -9,3 +9,7 @@ jdk:
 install:
  - git submodule update --init --remote --recursive
  - ./gradlew assemble
+
+script:
+ - ./gradlew check -x findbugsMain -x findbugsTest
+
