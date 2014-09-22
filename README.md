@@ -49,7 +49,8 @@ tests in the project:
 We strongly recommend using [IntelliJ IDEA](http://www.jetbrains.com/idea/).
 There are project files available in this repository which will load all of the
 subprojects properly, and configure IDEA with our preferred code style,
-license headers, etc. Simply open the `dmdirc.iml` file with IDEA to get going.
+license headers, etc. Simply tell IDEA to open a new project, and select the
+directory this repository is checked out to.
 
 Contributing
 --------------------------------------------------------------------------------
