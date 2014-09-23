@@ -16,7 +16,6 @@
     <orderEntry type="module" module-name="dcc" />
     <orderEntry type="module" module-name="dcop" />
     <orderEntry type="module" module-name="debug" />
-    <orderEntry type="module" module-name="dmdirc" />
     <orderEntry type="module" module-name="dns" />
     <orderEntry type="module" module-name="exec" />
     <orderEntry type="module" module-name="freedesktop_notifications" />
