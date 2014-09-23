@@ -13,3 +13,6 @@
 
 #Netbeans generated files
 /.nb-gradle/private/
+
+# DMDirc development profile
+/etc/profile/*.*
