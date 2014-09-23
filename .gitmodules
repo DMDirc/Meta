@@ -14,3 +14,6 @@
 	path = parser
 	url = https://github.com/DMDirc/Parser.git
 	branch = master
+[submodule "installers"]
+	path = installers
+	url = https://github.com/DMDirc/Installers.git
