@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run DMDirc" type="JarApplication" factoryName="JAR Application">
+    <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <option name="JAR_PATH" value="$PROJECT_DIR$/client/dist/DMDirc.jar" />
+    <option name="PROGRAM_PARAMETERS" value="-d etc/profile" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <envs />
+    <RunnerSettings RunnerId="Basic" />
+    <ConfigurationWrapper RunnerId="Basic" />
+    <method>
+      <option name="Gradle.BeforeRunTask" enabled="true" tasks=":client:jar" externalProjectPath="$PROJECT_DIR$" vmOptions="" scriptParameters="" />
+    </method>
+  </configuration>
+</component>
