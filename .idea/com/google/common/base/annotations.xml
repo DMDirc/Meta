@@ -1,0 +1,7 @@
+<root>
+    <item name='com.google.common.base.Preconditions T checkNotNull(T)'>
+        <annotation name='org.jetbrains.annotations.Contract'>
+            <val val="&quot;false -&gt; fail&quot;"/>
+        </annotation>
+    </item>
+</root>
