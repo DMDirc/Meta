@@ -14,7 +14,7 @@ checkout:
 
 dependencies:
   override:
-    - ./gradlew --stacktrace assemble
+    - ./gradlew --stacktrace --parallel client:dependencies plugins:dependencies
 
 test:
   override:
