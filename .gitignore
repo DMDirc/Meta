@@ -16,3 +16,6 @@
 
 # DMDirc development profile
 /etc/profile/*.*
+/etc/profile/identities/*
+!/etc/profile/identities/default
+!/etc/profile/identities/modealiases
