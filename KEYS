@@ -1,0 +1,65 @@
+This file contains the PGP keys of DMDirc developers.
+
+Users:
+
+  pgp < KEYS
+
+  or
+
+  gpg --import KEYS
+
+Developers:
+
+  pgp -kxa <your name> >> KEYS
+
+  or
+
+  (pgpk -ll <your name> && pgpk -xa <your name>) >> KEYS
+
+  or
+
+  (gpg --list-sigs <your name> && gpg --armor --export <your name>) >> KEYS
+
+===============================================================================
+
+pub   2048R/2B84C422 2014-10-07 [expires: 2016-10-06]
+uid                  Chris Smith (DMDirc code signing key) <chris@dmdirc.com>
+sub   2048R/EC77698B 2014-10-07 [expires: 2016-10-06]
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v1
+
+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
+WSaQ6Dg+bPVj2JA7Rkbijd87
+=3cfS
+-----END PGP PUBLIC KEY BLOCK-----

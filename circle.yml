@@ -1,6 +1,8 @@
 ---
 
 machine:
+  java:
+    version: oraclejdk8
   environment:
     TERM: dumb
 
@@ -12,7 +14,7 @@ checkout:
 
 dependencies:
   override:
-    - ./gradlew --stacktrace assemble
+    - ./gradlew --stacktrace --parallel client:dependencies plugins:dependencies
 
 test:
   override:
