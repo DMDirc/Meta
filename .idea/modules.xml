@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/activewindow.iml" filepath="$PROJECT_DIR$/.idea/activewindow.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/audio.iml" filepath="$PROJECT_DIR$/.idea/audio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/awaycolours.iml" filepath="$PROJECT_DIR$/.idea/awaycolours.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/calc.iml" filepath="$PROJECT_DIR$/.idea/calc.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/client.iml" filepath="$PROJECT_DIR$/.idea/client.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/common.iml" filepath="$PROJECT_DIR$/.idea/common.iml" />
@@ -53,4 +54,3 @@
     </modules>
   </component>
 </project>
-
