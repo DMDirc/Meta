@@ -39,8 +39,6 @@
     <orderEntry type="module" module-name="parserdebug" />
     <orderEntry type="module" module-name="redirect" />
     <orderEntry type="module" module-name="scriptplugin" />
-    <orderEntry type="module" module-name="serverlistdialog" />
-    <orderEntry type="module" module-name="serverlists" />
     <orderEntry type="module" module-name="sessionlock" />
     <orderEntry type="module" module-name="systray" />
     <orderEntry type="module" module-name="tabcompletion_bash" />
@@ -51,4 +49,3 @@
     <orderEntry type="module" module-name="windowstatus" />
   </component>
 </module>
-

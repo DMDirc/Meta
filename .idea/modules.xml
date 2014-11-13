@@ -40,8 +40,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/plugins.iml" filepath="$PROJECT_DIR$/.idea/plugins.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/redirect.iml" filepath="$PROJECT_DIR$/.idea/redirect.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/scriptplugin.iml" filepath="$PROJECT_DIR$/.idea/scriptplugin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/serverlistdialog.iml" filepath="$PROJECT_DIR$/.idea/serverlistdialog.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/serverlists.iml" filepath="$PROJECT_DIR$/.idea/serverlists.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/sessionlock.iml" filepath="$PROJECT_DIR$/.idea/sessionlock.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/systray.iml" filepath="$PROJECT_DIR$/.idea/systray.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/tabcompletion_bash.iml" filepath="$PROJECT_DIR$/.idea/tabcompletion_bash.iml" />
