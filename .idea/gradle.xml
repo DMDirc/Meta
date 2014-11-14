@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/plugins" />
             <option value="$PROJECT_DIR$/plugins/activewindow" />
             <option value="$PROJECT_DIR$/plugins/audio" />
+            <option value="$PROJECT_DIR$/plugins/awaycolours" />
             <option value="$PROJECT_DIR$/plugins/calc" />
             <option value="$PROJECT_DIR$/plugins/conditional_execute" />
             <option value="$PROJECT_DIR$/plugins/contactlist" />
@@ -44,8 +45,6 @@
             <option value="$PROJECT_DIR$/plugins/parserdebug" />
             <option value="$PROJECT_DIR$/plugins/redirect" />
             <option value="$PROJECT_DIR$/plugins/scriptplugin" />
-            <option value="$PROJECT_DIR$/plugins/serverlistdialog" />
-            <option value="$PROJECT_DIR$/plugins/serverlists" />
             <option value="$PROJECT_DIR$/plugins/sessionlock" />
             <option value="$PROJECT_DIR$/plugins/systray" />
             <option value="$PROJECT_DIR$/plugins/tabcompletion_bash" />
@@ -61,4 +60,3 @@
     </option>
   </component>
 </project>
-
