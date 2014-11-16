@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":plugins:awaycolours" external.linked.project.path="$MODULE_DIR$/plugins/awaycolours" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="dmdirc.plugins" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/plugins/awaycolours/build/classes/main" />
     <output-test url="file://$MODULE_DIR$/plugins/awaycolours/build/classes/test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/plugins/awaycolours">
       <sourceFolder url="file://$MODULE_DIR$/plugins/awaycolours/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/awaycolours/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/awaycolours/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/awaycolours/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/awaycolours/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/awaycolours/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/awaycolours/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/awaycolours/test-res" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/awaycolours/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/awaycolours/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
