@@ -22,6 +22,6 @@ test:
 
 general:
   artifacts:
-    - plugins/dist
+    - plugins/dist-versioned
     - client/build/libs
 
