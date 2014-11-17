@@ -18,7 +18,7 @@ dependencies:
 
 test:
   override:
-    - ./gradlew --stacktrace --parallel test
+    - ./gradlew --stacktrace --parallel jar test
 
 general:
   artifacts:
