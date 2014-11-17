@@ -48,6 +48,3 @@ server:
   umodeO=Local IRC Operator
   umodeR=Only registered users may query
   umodex=Hide hostname
-
-identity:
-  modealiasversion=0.7

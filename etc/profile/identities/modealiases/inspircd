@@ -35,6 +35,7 @@ server:
   modeH=Show channel history
   modej=Join flood protection
   modeL=Channel redirection
+  modeY=User is Oper
 
   modeX=Exempt Chan Ops list
   modew=Channel Access list
