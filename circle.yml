@@ -19,3 +19,9 @@ dependencies:
 test:
   override:
     - ./gradlew --stacktrace --parallel test
+
+general:
+  artifacts:
+    - plugins/dist
+    - client/build/libs
+
