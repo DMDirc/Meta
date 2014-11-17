@@ -52,7 +52,7 @@ subprojects properly, and configure IDEA with our preferred code style,
 license headers, etc. Simply tell IDEA to open a new project, and select the
 directory this repository is checked out to.
 
-Contributing
+Contributing and Continuous Integration
 --------------------------------------------------------------------------------
 
 We welcome pull requests on GitHub for all the DMDirc repositories. The tests
@@ -63,6 +63,16 @@ Please bear in mind that these are just unit tests for the individual modules â€
 they don't test how your change will affect DMDirc itself. It's good practice
 to run all of the tests in the project and compile and run an actual client to
 make sure everything actually still works!
+
+The current CI status for the major projects are shown below:
+
+| Project | Status                                                              |
+|---------|---------------------------------------------------------------------|
+| Meta    | [![Circle CI](https://circleci.com/gh/DMDirc/Meta.png?style=badge)](https://circleci.com/gh/DMDirc/Meta) |
+| Client  | [![Circle CI](https://circleci.com/gh/DMDirc/DMDirc.png?style=badge)](https://circleci.com/gh/DMDirc/DMDirc) |
+| Parser  | [![Circle CI](https://circleci.com/gh/DMDirc/Parser.png?style=badge)](https://circleci.com/gh/DMDirc/Parser) |
+| Plugins | [![Circle CI](https://circleci.com/gh/DMDirc/Plugins.png?style=badge)](https://circleci.com/gh/DMDirc/Plugins) |
+| Util    | [![Circle CI](https://circleci.com/gh/DMDirc/Util.png?style=badge)](https://circleci.com/gh/DMDirc/Util) |
 
 Miscellaneous
 --------------------------------------------------------------------------------
