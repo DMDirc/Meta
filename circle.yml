@@ -18,7 +18,7 @@ dependencies:
 
 test:
   override:
-    - ./gradlew --stacktrace --parallel jar test
+    - ./gradlew --stacktrace --parallel jar test client:fatjar
 
 general:
   artifacts:
