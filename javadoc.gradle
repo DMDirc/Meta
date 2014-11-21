@@ -7,7 +7,7 @@ gradle.projectsEvaluated {
         destinationDir = file("${buildDir}/docs/javadoc")
     }
 
-    task packageJavadoc(type: Jar, dependsOn: 'javadoc') {
+    task packageJavadoc(type: Jar, dependsOn: 'aggregateJavadoc') {
         from project.aggregateJavadoc.destinationDir
         classifier = 'javadoc'
     }
