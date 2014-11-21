@@ -14,10 +14,16 @@ checkout:
 
 test:
   override:
-    - ./gradlew --stacktrace --parallel jar test client:fatjar
+    - >
+      if [ -n "${BUILD_JAVADOC}" ]; then
+        ./gradlew --stacktrace packageJavadoc;
+      else
+        ./gradlew --stacktrace --parallel jar test client:fatjar;
+      fi
 
 general:
   artifacts:
     - plugins/dist-versioned
     - client/build/libs
+    - build/libs/dmdirc-javadoc.jar
 
