@@ -12,10 +12,6 @@ checkout:
     - git fetch --tags
     - git submodule update --init --remote
 
-dependencies:
-  override:
-    - ./gradlew --stacktrace --parallel client:dependencies plugins:dependencies
-
 test:
   override:
     - ./gradlew --stacktrace --parallel jar test client:fatjar
