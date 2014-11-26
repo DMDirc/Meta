@@ -21,6 +21,8 @@ test:
     - >
       if [ -n "${BUILD_JAVADOC}" ]; then
         ./gradlew --stacktrace packageJavadoc;
+      elif [ -n "${BUILD_PMD}" ]; then
+        ./gradlew --stacktrace pmdMain;
       else
         ./gradlew --stacktrace --parallel jar test client:fatjar;
       fi
@@ -29,5 +31,11 @@ general:
   artifacts:
     - plugins/dist-versioned
     - client/build/libs
+
     - build/libs/dmdirc-javadoc.jar
+
+    - client/build/reports/pmd/*
+    - plugins/reports/pmd/*
+    - util/build/reports/pmd/*
+    - parser/build/reports/pmd/*
 
