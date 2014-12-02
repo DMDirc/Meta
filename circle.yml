@@ -31,6 +31,9 @@ general:
   artifacts:
     - plugins/dist-versioned
     - client/build/libs
+    - util/build/libs
+    - parser/irc/build/libs
+    - parser/common/build/libs
 
     - build/libs/dmdirc-javadoc.jar
 
