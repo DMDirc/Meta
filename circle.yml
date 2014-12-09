@@ -38,7 +38,7 @@ general:
     - build/libs/dmdirc-javadoc.jar
 
     - client/build/reports/pmd/*
-    - plugins/reports/pmd/*
+    - plugins/pmd/*
     - util/build/reports/pmd/*
     - parser/build/reports/pmd/*
 
