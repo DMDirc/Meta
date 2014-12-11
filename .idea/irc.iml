@@ -6,8 +6,6 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/parser/irc">
       <sourceFolder url="file://$MODULE_DIR$/parser/irc/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/parser/irc/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/parser/irc/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/parser/irc/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/parser/irc/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/parser/irc/src/test/resources" type="java-test-resource" />

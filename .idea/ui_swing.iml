@@ -6,12 +6,8 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/plugins/ui_swing">
       <sourceFolder url="file://$MODULE_DIR$/plugins/ui_swing/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/ui_swing/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/ui_swing/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/ui_swing/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/ui_swing/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/ui_swing/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/ui_swing/src/test/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/ui_swing/test-res" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/ui_swing/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/ui_swing/build" />
@@ -34,4 +30,3 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>
 </module>
-

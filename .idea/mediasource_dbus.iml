@@ -6,12 +6,8 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/plugins/mediasource_dbus">
       <sourceFolder url="file://$MODULE_DIR$/plugins/mediasource_dbus/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/mediasource_dbus/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/mediasource_dbus/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/mediasource_dbus/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/mediasource_dbus/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/mediasource_dbus/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/mediasource_dbus/src/test/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/mediasource_dbus/test-res" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/mediasource_dbus/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/mediasource_dbus/build" />
@@ -31,4 +27,3 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>
 </module>
-

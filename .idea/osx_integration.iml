@@ -6,12 +6,8 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/plugins/osx_integration">
       <sourceFolder url="file://$MODULE_DIR$/plugins/osx_integration/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/osx_integration/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/osx_integration/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/osx_integration/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/osx_integration/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/osx_integration/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/osx_integration/src/test/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/osx_integration/test-res" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/osx_integration/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/osx_integration/build" />
@@ -31,4 +27,3 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>
 </module>
-

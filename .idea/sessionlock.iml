@@ -6,12 +6,8 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/plugins/sessionlock">
       <sourceFolder url="file://$MODULE_DIR$/plugins/sessionlock/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/sessionlock/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/sessionlock/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/sessionlock/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/sessionlock/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/sessionlock/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/sessionlock/src/test/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/sessionlock/test-res" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/sessionlock/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/sessionlock/build" />
@@ -33,4 +29,3 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>
 </module>
-

@@ -6,12 +6,8 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/plugins/nickcolours">
       <sourceFolder url="file://$MODULE_DIR$/plugins/nickcolours/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/nickcolours/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/nickcolours/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/nickcolours/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/nickcolours/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/nickcolours/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/nickcolours/src/test/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/nickcolours/test-res" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/nickcolours/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/nickcolours/build" />
@@ -31,4 +27,3 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>
 </module>
-
