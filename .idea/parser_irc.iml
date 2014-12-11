@@ -6,12 +6,8 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/plugins/parser_irc">
       <sourceFolder url="file://$MODULE_DIR$/plugins/parser_irc/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/parser_irc/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/parser_irc/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/parser_irc/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/parser_irc/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/parser_irc/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/parser_irc/src/test/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/parser_irc/test-res" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/parser_irc/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/parser_irc/build" />
@@ -31,4 +27,3 @@
     <orderEntry type="module" module-name="irc" exported="" />
   </component>
 </module>
-
