@@ -6,12 +6,8 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/plugins/systray">
       <sourceFolder url="file://$MODULE_DIR$/plugins/systray/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/systray/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/systray/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/systray/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/systray/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/systray/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/systray/src/test/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/systray/test-res" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/systray/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/systray/build" />
@@ -31,4 +27,3 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>
 </module>
-

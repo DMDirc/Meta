@@ -6,12 +6,8 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/plugins/lagdisplay">
       <sourceFolder url="file://$MODULE_DIR$/plugins/lagdisplay/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/lagdisplay/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/lagdisplay/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/lagdisplay/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/lagdisplay/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/lagdisplay/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/lagdisplay/src/test/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/lagdisplay/test-res" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/lagdisplay/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/lagdisplay/build" />
@@ -31,4 +27,3 @@
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>
 </module>
-

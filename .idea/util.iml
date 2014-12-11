@@ -6,11 +6,8 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/util">
       <sourceFolder url="file://$MODULE_DIR$/util/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/util/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/util/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/util/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/util/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/util/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/util/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/util/test-res" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/util/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/util/build" />
@@ -25,4 +22,3 @@
     <orderEntry type="library" name="Gradle: com.google.code.findbugs:jsr305:3.0.0" level="project" />
   </component>
 </module>
-

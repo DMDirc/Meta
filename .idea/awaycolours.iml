@@ -6,12 +6,8 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/plugins/awaycolours">
       <sourceFolder url="file://$MODULE_DIR$/plugins/awaycolours/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/awaycolours/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/awaycolours/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/awaycolours/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/awaycolours/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/awaycolours/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/awaycolours/src/test/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/awaycolours/test-res" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/awaycolours/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/awaycolours/build" />

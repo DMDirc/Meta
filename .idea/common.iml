@@ -6,8 +6,6 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/parser/common">
       <sourceFolder url="file://$MODULE_DIR$/parser/common/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/parser/common/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/parser/common/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/parser/common/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/parser/common/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/parser/common/src/test/resources" type="java-test-resource" />

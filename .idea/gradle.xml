@@ -17,6 +17,7 @@
             <option value="$PROJECT_DIR$/plugins/audio" />
             <option value="$PROJECT_DIR$/plugins/awaycolours" />
             <option value="$PROJECT_DIR$/plugins/calc" />
+            <option value="$PROJECT_DIR$/plugins/channelwho" />
             <option value="$PROJECT_DIR$/plugins/conditional_execute" />
             <option value="$PROJECT_DIR$/plugins/contactlist" />
             <option value="$PROJECT_DIR$/plugins/dcc" />
