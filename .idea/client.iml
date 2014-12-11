@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":client" external.linked.project.path="$MODULE_DIR$/client" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="dmdirc" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":client" external.linked.project.path="$MODULE_DIR$/client" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="com.dmdirc" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/client/build/classes/main" />
     <output-test url="file://$MODULE_DIR$/client/build/classes/test" />
@@ -33,5 +33,8 @@
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.jimfs:jimfs:1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="module" module-name="common" exported="" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.auto.value:auto-value:1.0-rc1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: com.google.auto.service:auto-service:1.0-rc1" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.ow2.asm:asm:4.1" level="project" />
   </component>
 </module>
