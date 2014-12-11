@@ -6,12 +6,8 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/plugins/identd">
       <sourceFolder url="file://$MODULE_DIR$/plugins/identd/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/identd/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/identd/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/identd/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/identd/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/identd/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/identd/src/test/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/identd/test-res" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/identd/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/identd/build" />
@@ -31,4 +27,3 @@
     <orderEntry type="module" module-name="irc" exported="" />
   </component>
 </module>
-
