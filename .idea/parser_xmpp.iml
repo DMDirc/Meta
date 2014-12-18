@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/plugins/parser_xmpp/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/parser_xmpp/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/parser_xmpp/test-res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/parser_xmpp/generated" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/parser_xmpp/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/parser_xmpp/build" />
     </content>

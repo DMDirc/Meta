@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/plugins/tabcompletion_mirc/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/tabcompletion_mirc/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/tabcompletion_mirc/test-res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/tabcompletion_mirc/generated" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/tabcompletion_mirc/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/tabcompletion_mirc/build" />
     </content>

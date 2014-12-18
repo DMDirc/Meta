@@ -9,6 +9,8 @@
       <sourceFolder url="file://$MODULE_DIR$/plugins/debug/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/debug/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/debug/test-res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/debug/generated" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/debug/generated_tests" isTestSource="true" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/debug/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/debug/build" />
     </content>

@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/plugins/tabcompletion_bash/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/tabcompletion_bash/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/tabcompletion_bash/test-res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/tabcompletion_bash/generated" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/tabcompletion_bash/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/tabcompletion_bash/build" />
     </content>

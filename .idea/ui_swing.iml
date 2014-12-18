@@ -9,6 +9,8 @@
       <sourceFolder url="file://$MODULE_DIR$/plugins/ui_swing/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/ui_swing/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/ui_swing/test-res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/ui_swing/generated" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/ui_swing/generated_tests" isTestSource="true" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/ui_swing/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/ui_swing/build" />
     </content>

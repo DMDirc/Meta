@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/plugins/mediasource_linux_title/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/mediasource_linux_title/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/mediasource_linux_title/test-res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/mediasource_linux_title/generated" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/mediasource_linux_title/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/mediasource_linux_title/build" />
     </content>

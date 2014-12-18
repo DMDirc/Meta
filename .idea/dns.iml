@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/plugins/dns/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/dns/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/dns/test-res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/dns/generated" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/dns/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/dns/build" />
     </content>

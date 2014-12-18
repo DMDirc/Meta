@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/plugins/lagdisplay/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/lagdisplay/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/lagdisplay/test-res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/lagdisplay/generated" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/lagdisplay/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/lagdisplay/build" />
     </content>
