@@ -9,6 +9,8 @@
       <sourceFolder url="file://$MODULE_DIR$/plugins/calc/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/calc/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/calc/test-res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/calc/generated_tests" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/calc/generated" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/calc/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/calc/build" />
     </content>

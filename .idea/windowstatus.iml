@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/plugins/windowstatus/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/windowstatus/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/windowstatus/test-res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/windowstatus/generated" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/windowstatus/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/windowstatus/build" />
     </content>

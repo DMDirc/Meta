@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/plugins/parser_irc/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/parser_irc/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/parser_irc/test-res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/parser_irc/generated" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/parser_irc/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/parser_irc/build" />
     </content>

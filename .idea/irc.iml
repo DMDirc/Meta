@@ -9,6 +9,8 @@
       <sourceFolder url="file://$MODULE_DIR$/parser/irc/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/parser/irc/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/parser/irc/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/parser/irc/generated" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/parser/irc/generated_tests" isTestSource="true" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/parser/irc/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/parser/irc/build" />
     </content>
@@ -16,7 +18,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="common" exported="" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: org.mockito:mockito-all:1.10.8" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12-beta-3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.mockito:mockito-all:1.10.17" level="project" />
   </component>
 </module>

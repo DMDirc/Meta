@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/plugins/nickcolours/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/nickcolours/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/nickcolours/test-res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/nickcolours/generated" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/nickcolours/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/nickcolours/build" />
     </content>

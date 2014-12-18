@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/plugins/osx_integration/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/osx_integration/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/osx_integration/test-res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/osx_integration/generated" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/osx_integration/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/osx_integration/build" />
     </content>

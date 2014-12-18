@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/plugins/contactlist/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/contactlist/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/contactlist/test-res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/contactlist/generated" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/contactlist/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/contactlist/build" />
     </content>

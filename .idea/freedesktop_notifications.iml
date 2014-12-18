@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/plugins/freedesktop_notifications/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/freedesktop_notifications/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/freedesktop_notifications/test-res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/freedesktop_notifications/generated" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/freedesktop_notifications/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/freedesktop_notifications/build" />
     </content>

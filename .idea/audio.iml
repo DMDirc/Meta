@@ -9,6 +9,8 @@
       <sourceFolder url="file://$MODULE_DIR$/plugins/audio/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/audio/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/audio/test-res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/audio/generated" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/audio/generated_tests" isTestSource="true" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/audio/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/audio/build" />
     </content>
