@@ -1,13 +1,10 @@
-task getCloverCredentials << {
+task checkCloverCredentials << {
     def licenseDir = rootDir.toPath().resolve('etc').resolve('clover')
     java.nio.file.Files.createDirectories(licenseDir);
 
     def target = licenseDir.resolve('clover.license')
     if (!java.nio.file.Files.exists(target)) {
-        println 'Attempting to download clover license...'
-        new URL('http://www.dmdirc.com/private/clover.license').withInputStream{
-            i -> target.withOutputStream { it << i }
-        }
+        println 'No clover license found. Please place it in etc/clover/clover.license.'
     }
 }
 
@@ -30,7 +27,7 @@ allprojects {
         clover group: 'com.atlassian.clover', name: 'clover', version: '4.0.0'
     }
 
-    cloverGenerateReport.dependsOn ':getCloverCredentials'
+    cloverGenerateReport.dependsOn ':checkCloverCredentials'
 
 }
 
