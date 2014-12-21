@@ -80,9 +80,8 @@ Miscellaneous
 ### Running Clover
 
 Clover is disabled by default as it requires a license file we can't distribute.
-When running clover tasks, the build script will try and download our license
-from a private webserver. If your IP isn't whitelisted you will need to supply
-a username/password.
+If you have a Clover license, or have access to DMDirc's license, place it in
+etc/clover/clover.license.
 
 To enable clover, set the enableClover property to true value:
 
