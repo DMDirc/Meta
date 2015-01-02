@@ -21,6 +21,6 @@
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_STRING" value="-Xlint:all,-processing" />
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-Xlint:all,-processing,-try" />
   </component>
 </project>
