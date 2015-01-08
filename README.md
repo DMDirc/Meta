@@ -27,6 +27,12 @@ scripts for bundling everything together.
 Getting Started
 --------------------------------------------------------------------------------
 
+### Prerequisites
+
+To build and run the DMDirc client, you will need to have **Java 8** or greater.
+DMDirc will work with either the Oracle JDK or Open JDK. All other dependencies
+are downloaded by the build scripts automatically.
+
 ### Project set up
 
 First off, clone this repository and init the submodules:
@@ -41,9 +47,6 @@ tests in the project:
     ./gradlew jar
     ./gradlew test
 
-[Currently the gradle scripts do not generate a functioning client... we're
- working on that still!]
-
 ### Using an IDE
 
 We strongly recommend using [IntelliJ IDEA](http://www.jetbrains.com/idea/).
@@ -52,8 +55,24 @@ subprojects properly, and configure IDEA with our preferred code style,
 license headers, etc. Simply tell IDEA to open a new project, and select the
 directory this repository is checked out to.
 
-Contributing and Continuous Integration
+### Running the client
+
+Once you have executed `./gradlew jar`, a copy of the client jar will be placed
+in `client/dist` and all of the plugins will be collected in `plugins/dist`. For
+development work, it is often easiest to symlink the `plugins` directory from
+your DMDirc profile to the dist directory in the source tree. This ensures the
+latest plugins are always used.
+
+For convenience a skeleton profile is located in `etc/profile` in this
+repository, and includes a symlink to the correct plugins directory. To run the
+client using this profile, use the `-d` option:
+
+    java -jar DMDirc.jar -d path/to/etc/profile
+
+Contributing
 --------------------------------------------------------------------------------
+
+### Contributing changes
 
 We welcome pull requests on GitHub for all the DMDirc repositories. The tests
 for the module will run on CircleCI, and the pull request will be updated with
@@ -64,6 +83,10 @@ they don't test how your change will affect DMDirc itself. It's good practice
 to run all of the tests in the project and compile and run an actual client to
 make sure everything actually still works!
 
+You can see an overview of open pull requests across all of the DMDirc projects [here](https://github.com/pulls?q=is%3Aopen+is%3Apr+user%3Admdirc).
+
+### Continuous Integration
+
 The current CI status for the major projects are shown below:
 
 | Project | Status                                                              |
@@ -73,6 +96,17 @@ The current CI status for the major projects are shown below:
 | Parser  | [![Circle CI](https://circleci.com/gh/DMDirc/Parser.png?style=badge)](https://circleci.com/gh/DMDirc/Parser) |
 | Plugins | [![Circle CI](https://circleci.com/gh/DMDirc/Plugins.png?style=badge)](https://circleci.com/gh/DMDirc/Plugins) |
 | Util    | [![Circle CI](https://circleci.com/gh/DMDirc/Util.png?style=badge)](https://circleci.com/gh/DMDirc/Util) |
+
+### Issues
+
+We track issues in each of the separate projects listed above (for example,
+issues with the IRC parser are raised in the 'parser' repository; issues
+with the Swing UI are raised in the 'plugins' repository). If you are unsure
+where to raise an issue, feel free to raise it in Meta (this repository) and
+we'll relocate it accordingly.
+
+You can see an overview of open issues across all of the DMDirc projects
+[here](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Admdirc).
 
 Miscellaneous
 --------------------------------------------------------------------------------
