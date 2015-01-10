@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/plugins/qauth/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/qauth/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/qauth/test-res" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/qauth/generated" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/qauth/.gradle" />
     </content>
     <orderEntry type="inheritedJdk" />
