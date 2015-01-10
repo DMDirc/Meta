@@ -39,6 +39,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/parser_xmpp.iml" filepath="$PROJECT_DIR$/.idea/parser_xmpp.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/parserdebug.iml" filepath="$PROJECT_DIR$/.idea/parserdebug.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/plugins.iml" filepath="$PROJECT_DIR$/.idea/plugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/qauth.iml" filepath="$PROJECT_DIR$/.idea/qauth.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/redirect.iml" filepath="$PROJECT_DIR$/.idea/redirect.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/scriptplugin.iml" filepath="$PROJECT_DIR$/.idea/scriptplugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/sessionlock.iml" filepath="$PROJECT_DIR$/.idea/sessionlock.iml" />
