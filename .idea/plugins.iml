@@ -39,6 +39,7 @@
     <orderEntry type="module" module-name="parser_irc" />
     <orderEntry type="module" module-name="parser_xmpp" />
     <orderEntry type="module" module-name="parserdebug" />
+    <orderEntry type="module" module-name="qauth" />
     <orderEntry type="module" module-name="redirect" />
     <orderEntry type="module" module-name="scriptplugin" />
     <orderEntry type="module" module-name="sessionlock" />
