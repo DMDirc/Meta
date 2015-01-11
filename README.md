@@ -90,7 +90,7 @@ You can see an overview of open pull requests across all of the DMDirc projects 
 The current CI and coverage status for the major projects are shown below:
 
 | Project | Status | Coverage |
-|---------|---------------------------------------------------------------------|
+|:-------:|:------:|:--------:|
 | Meta    | [![Circle CI](https://circleci.com/gh/DMDirc/Meta.png?style=badge)](https://circleci.com/gh/DMDirc/Meta) | (No code) |
 | Client  | [![Circle CI](https://circleci.com/gh/DMDirc/DMDirc.png?style=badge)](https://circleci.com/gh/DMDirc/DMDirc)  | [![Coverage Status](https://img.shields.io/coveralls/DMDirc/DMDirc.svg)](https://coveralls.io/r/DMDirc/DMDirc?branch=master) |
 | Parser  | [![Circle CI](https://circleci.com/gh/DMDirc/Parser.png?style=badge)](https://circleci.com/gh/DMDirc/Parser)  | [![Coverage Status](https://img.shields.io/coveralls/DMDirc/Parser.svg)](https://coveralls.io/r/DMDirc/Parser?branch=master) |
