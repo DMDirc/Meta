@@ -5,7 +5,7 @@ machine:
     version: oraclejdk8
   environment:
     TERM: dumb
-    GRADLE_OPTS: -Xmx3g
+    GRADLE_OPTS: -Xmx2g
 
 checkout:
   post:
