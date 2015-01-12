@@ -5,7 +5,7 @@ machine:
     version: oraclejdk8
   environment:
     TERM: dumb
-    GRADLE_OPTS: -Xmx3g
+    GRADLE_OPTS: -Xmx2g
 
 checkout:
   post:
@@ -21,7 +21,7 @@ test:
   override:
     - >
       if [ -n "${BUILD_JAVADOC}" ]; then
-        ./gradlew --stacktrace packageJavadoc;
+        ./gradlew --stacktrace util:javadocJar packageJavadoc;
       elif [ -n "${BUILD_PMD}" ]; then
         ./gradlew --stacktrace pmdMain;
       else
