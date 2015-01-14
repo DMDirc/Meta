@@ -16,6 +16,9 @@ apply from: 'gradle/clover.gradle'
 apply from: 'gradle/local-dependency-change.gradle'
 apply from: 'gradle/javadoc.gradle'
 
+subprojects.each { evaluationDependsOn it.path }
+tasks.dependencies.dependsOn subprojects*.tasks.dependencies
+
 task createWrapper(type: Wrapper) {
     description 'Downloads and installs an up-to-date wrapper for gradle.'
     gradleVersion = '2.2.1'
