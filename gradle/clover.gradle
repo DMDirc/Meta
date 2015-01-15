@@ -9,7 +9,7 @@ task checkCloverCredentials << {
 }
 
 allprojects {
-    apply plugin: 'clover'
+    apply plugin: 'com.bmuschko.clover'
 
     clover {
         includeTasks = Boolean.valueOf(rootProject.enableClover) ? [] : ['none']
@@ -24,10 +24,9 @@ allprojects {
     repositories.mavenCentral()
 
     dependencies {
-        clover group: 'com.atlassian.clover', name: 'clover', version: '4.0.0'
+        clover group: 'com.atlassian.clover', name: 'clover', version: '4.0.2'
     }
 
     cloverGenerateReport.dependsOn ':checkCloverCredentials'
-
 }
 
