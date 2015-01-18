@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/parser" />
             <option value="$PROJECT_DIR$/parser/common" />
             <option value="$PROJECT_DIR$/parser/irc" />
+            <option value="$PROJECT_DIR$/parser/xmpp" />
             <option value="$PROJECT_DIR$/plugins" />
             <option value="$PROJECT_DIR$/plugins/activewindow" />
             <option value="$PROJECT_DIR$/plugins/audio" />
@@ -36,6 +37,7 @@
             <option value="$PROJECT_DIR$/plugins/mediasource_vlc" />
             <option value="$PROJECT_DIR$/plugins/mediasource_windows" />
             <option value="$PROJECT_DIR$/plugins/nickcolours" />
+            <option value="$PROJECT_DIR$/plugins/nickkeep" />
             <option value="$PROJECT_DIR$/plugins/nma" />
             <option value="$PROJECT_DIR$/plugins/notifications" />
             <option value="$PROJECT_DIR$/plugins/nowplaying" />
@@ -44,6 +46,7 @@
             <option value="$PROJECT_DIR$/plugins/parser_irc" />
             <option value="$PROJECT_DIR$/plugins/parser_xmpp" />
             <option value="$PROJECT_DIR$/plugins/parserdebug" />
+            <option value="$PROJECT_DIR$/plugins/qauth" />
             <option value="$PROJECT_DIR$/plugins/redirect" />
             <option value="$PROJECT_DIR$/plugins/scriptplugin" />
             <option value="$PROJECT_DIR$/plugins/sessionlock" />

@@ -52,6 +52,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/util.iml" filepath="$PROJECT_DIR$/.idea/util.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/windowflashing.iml" filepath="$PROJECT_DIR$/.idea/windowflashing.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/windowstatus.iml" filepath="$PROJECT_DIR$/.idea/windowstatus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/xmpp.iml" filepath="$PROJECT_DIR$/.idea/xmpp.iml" />
     </modules>
   </component>
 </project>
