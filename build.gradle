@@ -1,20 +1,13 @@
-buildscript {
-    repositories {
-        jcenter()
-    }
-
-    dependencies {
-        classpath group: 'org.gradle.api.plugins', name: 'gradle-clover-plugin', version: '0.8.2'
-    }
+plugins {
+    id 'com.bmuschko.clover' version '2.0.1'
 }
 
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
+apply from: 'gradle/clover.gradle'
+apply from: 'gradle/local-dependency-change.gradle'
+apply from: 'gradle/javadoc.gradle'
 
-apply from: 'clover.gradle'
-apply from: 'local-dependency-change.gradle'
-apply from: 'javadoc.gradle'
+subprojects.each { evaluationDependsOn it.path }
+tasks.dependencies.dependsOn subprojects*.tasks.dependencies
 
 task createWrapper(type: Wrapper) {
     description 'Downloads and installs an up-to-date wrapper for gradle.'

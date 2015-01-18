@@ -85,17 +85,17 @@ make sure everything actually still works!
 
 You can see an overview of open pull requests across all of the DMDirc projects [here](https://github.com/pulls?q=is%3Aopen+is%3Apr+user%3Admdirc).
 
-### Continuous Integration
+### Continuous Integration and Code Coverage
 
-The current CI status for the major projects are shown below:
+The current CI and coverage status for the major projects are shown below:
 
-| Project | Status                                                              |
-|---------|---------------------------------------------------------------------|
-| Meta    | [![Circle CI](https://circleci.com/gh/DMDirc/Meta.png?style=badge)](https://circleci.com/gh/DMDirc/Meta) |
-| Client  | [![Circle CI](https://circleci.com/gh/DMDirc/DMDirc.png?style=badge)](https://circleci.com/gh/DMDirc/DMDirc) |
-| Parser  | [![Circle CI](https://circleci.com/gh/DMDirc/Parser.png?style=badge)](https://circleci.com/gh/DMDirc/Parser) |
-| Plugins | [![Circle CI](https://circleci.com/gh/DMDirc/Plugins.png?style=badge)](https://circleci.com/gh/DMDirc/Plugins) |
-| Util    | [![Circle CI](https://circleci.com/gh/DMDirc/Util.png?style=badge)](https://circleci.com/gh/DMDirc/Util) |
+| Project | Status | Coverage |
+|:-------:|:------:|:--------:|
+| Meta    | [![Circle CI](https://circleci.com/gh/DMDirc/Meta.png?style=badge)](https://circleci.com/gh/DMDirc/Meta) | (No code) |
+| Client  | [![Circle CI](https://circleci.com/gh/DMDirc/DMDirc.png?style=badge)](https://circleci.com/gh/DMDirc/DMDirc)  | [![Coverage Status](https://img.shields.io/coveralls/DMDirc/DMDirc.svg)](https://coveralls.io/r/DMDirc/DMDirc?branch=master) |
+| Parser  | [![Circle CI](https://circleci.com/gh/DMDirc/Parser.png?style=badge)](https://circleci.com/gh/DMDirc/Parser)  | [![Coverage Status](https://img.shields.io/coveralls/DMDirc/Parser.svg)](https://coveralls.io/r/DMDirc/Parser?branch=master) |
+| Plugins | [![Circle CI](https://circleci.com/gh/DMDirc/Plugins.png?style=badge)](https://circleci.com/gh/DMDirc/Plugins) | [![Coverage Status](https://img.shields.io/coveralls/DMDirc/Plugins.svg)](https://coveralls.io/r/DMDirc/Plugins?branch=master) |
+| Util    | [![Circle CI](https://circleci.com/gh/DMDirc/Util.png?style=badge)](https://circleci.com/gh/DMDirc/Util) | [![Coverage Status](https://img.shields.io/coveralls/DMDirc/Util.svg)](https://coveralls.io/r/DMDirc/Util?branch=master) |
 
 ### Issues
 
