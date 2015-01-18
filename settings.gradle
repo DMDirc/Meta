@@ -6,6 +6,7 @@ include 'parser'
 include 'plugins'
 include 'parser:common'
 include 'parser:irc'
+include 'parser:xmpp'
 
 // Include all of the plugin projects
 project(':plugins').projectDir.eachDir() { File dir ->

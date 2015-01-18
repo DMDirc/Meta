@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id=":plugins:qauth" external.linked.project.path="$MODULE_DIR$/plugins/qauth" external.root.project.path="$MODULE_DIR$" external.system.id="GRADLE" external.system.module.group="dmdirc.plugins" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="false">
-    <output url="file://$MODULE_DIR$/plugins/qauth/build" />
-    <output-test url="file://$MODULE_DIR$/plugins/qauth/build" />
+    <output url="file://$MODULE_DIR$/plugins/qauth/build/classes/main" />
+    <output-test url="file://$MODULE_DIR$/plugins/qauth/build/classes/test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/plugins/qauth">
-      <sourceFolder url="file://$MODULE_DIR$/plugins/qauth/res" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/qauth/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/qauth/test" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/qauth/test-res" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/qauth/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/plugins/qauth/test-res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/qauth/generated" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/qauth/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/plugins/qauth/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

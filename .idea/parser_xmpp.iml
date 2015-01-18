@@ -9,15 +9,12 @@
       <sourceFolder url="file://$MODULE_DIR$/plugins/parser_xmpp/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/parser_xmpp/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/parser_xmpp/test-res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/parser_xmpp/generated" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/parser_xmpp/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/parser_xmpp/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="client" exported="" />
-    <orderEntry type="library" exported="" name="Gradle: org.igniterealtime.smack:smack:3.2.1" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: org.igniterealtime.smack:smackx:3.2.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.google.code.findbugs:jsr305:3.0.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.squareup.dagger:dagger-compiler:1.2.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.squareup.dagger:dagger:1.2.1" level="project" />
@@ -27,5 +24,6 @@
     <orderEntry type="library" exported="" name="Gradle: com.squareup:javawriter:2.3.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.mockito:mockito-all:1.10.17" level="project" />
+    <orderEntry type="module" module-name="xmpp" exported="" />
   </component>
 </module>
