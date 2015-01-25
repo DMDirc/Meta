@@ -50,5 +50,10 @@
     <orderEntry type="module" module-name="ui_swing" />
     <orderEntry type="module" module-name="windowflashing" />
     <orderEntry type="module" module-name="windowstatus" />
+    <orderEntry type="module" module-name="awaycolours" />
+    <orderEntry type="module" module-name="channelwho" />
+    <orderEntry type="module" module-name="jpq" />
+    <orderEntry type="module" module-name="nickkeep" />
+    <orderEntry type="module" module-name="whoisonquery" />
   </component>
 </module>

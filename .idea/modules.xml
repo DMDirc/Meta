@@ -20,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/freedesktop_notifications.iml" filepath="$PROJECT_DIR$/.idea/freedesktop_notifications.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/identd.iml" filepath="$PROJECT_DIR$/.idea/identd.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/irc.iml" filepath="$PROJECT_DIR$/.idea/irc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/jpq.iml" filepath="$PROJECT_DIR$/.idea/jpq.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/lagdisplay.iml" filepath="$PROJECT_DIR$/.idea/lagdisplay.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/logging.iml" filepath="$PROJECT_DIR$/.idea/logging.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/mediasource_dbus.iml" filepath="$PROJECT_DIR$/.idea/mediasource_dbus.iml" />
@@ -50,6 +51,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/time.iml" filepath="$PROJECT_DIR$/.idea/time.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ui_swing.iml" filepath="$PROJECT_DIR$/.idea/ui_swing.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/util.iml" filepath="$PROJECT_DIR$/.idea/util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/whoisonquery.iml" filepath="$PROJECT_DIR$/.idea/whoisonquery.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/windowflashing.iml" filepath="$PROJECT_DIR$/.idea/windowflashing.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/windowstatus.iml" filepath="$PROJECT_DIR$/.idea/windowstatus.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/xmpp.iml" filepath="$PROJECT_DIR$/.idea/xmpp.iml" />
