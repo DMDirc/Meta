@@ -28,6 +28,7 @@
             <option value="$PROJECT_DIR$/plugins/exec" />
             <option value="$PROJECT_DIR$/plugins/freedesktop_notifications" />
             <option value="$PROJECT_DIR$/plugins/identd" />
+            <option value="$PROJECT_DIR$/plugins/jpq" />
             <option value="$PROJECT_DIR$/plugins/lagdisplay" />
             <option value="$PROJECT_DIR$/plugins/logging" />
             <option value="$PROJECT_DIR$/plugins/mediasource_dbus" />
@@ -55,6 +56,7 @@
             <option value="$PROJECT_DIR$/plugins/tabcompletion_mirc" />
             <option value="$PROJECT_DIR$/plugins/time" />
             <option value="$PROJECT_DIR$/plugins/ui_swing" />
+            <option value="$PROJECT_DIR$/plugins/whoisonquery" />
             <option value="$PROJECT_DIR$/plugins/windowflashing" />
             <option value="$PROJECT_DIR$/plugins/windowstatus" />
             <option value="$PROJECT_DIR$/util" />
