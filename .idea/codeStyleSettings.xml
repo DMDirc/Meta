@@ -13,6 +13,8 @@
           <value>
             <package name="com.dmdirc" withSubpackages="true" static="false" />
             <emptyLine />
+            <package name="ch.qos.logback" withSubpackages="true" static="false" />
+            <emptyLine />
             <package name="com.google" withSubpackages="true" static="false" />
             <emptyLine />
             <package name="java" withSubpackages="true" static="false" />
@@ -72,4 +74,3 @@
     <option name="USE_PER_PROJECT_SETTINGS" value="true" />
   </component>
 </project>
-
