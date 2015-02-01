@@ -15,7 +15,7 @@ checkout:
 
 dependencies:
   override:
-    - ./gradlew --stacktrace --parallel client:dependencies plugins:dependencies
+    - ./gradlew --stacktrace client:dependencies plugins:dependencies
 
 test:
   override:
@@ -25,7 +25,7 @@ test:
       elif [ -n "${BUILD_PMD}" ]; then
         ./gradlew --stacktrace pmdMain;
       else
-        ./gradlew --stacktrace --parallel jar test client:fatjar;
+        ./gradlew --stacktrace jar test client:fatjar;
       fi
 
 general:
