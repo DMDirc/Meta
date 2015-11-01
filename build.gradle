@@ -11,6 +11,6 @@ tasks.dependencies.dependsOn subprojects*.tasks.dependencies
 
 task createWrapper(type: Wrapper) {
     description 'Downloads and installs an up-to-date wrapper for gradle.'
-    gradleVersion = '2.2.1'
+    gradleVersion = '2.4'
 }
 
