@@ -133,3 +133,13 @@ repository.
 The meta repository includes a gradle build script that finds these dependencies
 and replaces them with project links instead. This ensures that while developing
 the client your changes are reflected across modules properly.
+
+### Adding new projects
+
+To ensure all IDE configuration files are kept together in this repository,
+a few manual steps are required when adding a new project:
+
+After creating a new gradle project, refresh the root project in IDEA to create
+the .iml file in the project's base directory (e.g. `plugins/yourplugin/`).
+Then manually move the .iml file into `.idea` in this repository, and edit
+`.idea/modules.xml` to update the path.
