@@ -15,7 +15,7 @@ checkout:
 
 dependencies:
   override:
-    - ./gradlew --stacktrace client:dependencies plugins:dependencies
+    - ./gradlew --stacktrace resolveDependencies
 
 test:
   override:
@@ -27,6 +27,9 @@ test:
       else
         ./gradlew --stacktrace jar test client:fatjar;
       fi
+  post:
+    - mkdir -p $CIRCLE_TEST_REPORTS/junit/
+    - find . -type f -regex ".*/build/test-results/.*xml" -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;
 
 general:
   artifacts:

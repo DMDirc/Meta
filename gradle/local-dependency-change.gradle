@@ -3,22 +3,15 @@ gradle.projectsEvaluated {
     allprojects.each { p -> projectMap[p.name] = p }
 
     allprojects.each { p ->
-        def replace = []
-
-        p.configurations.each { conf ->
-            def remove = []
-            conf.dependencies.each { dep ->
-                if (dep.group =~ '^com.dmdirc' && dep.version == '+' && projectMap[dep.name] != null) {
-                    remove += dep
-                    replace += [conf: conf.name, dep: dep, transitive: dep.transitive]
+        p.configurations.all {
+            resolutionStrategy.dependencySubstitution.all { DependencySubstitution dependency ->
+                if (dependency.requested instanceof ModuleComponentSelector && dependency.requested.group =~ '^com.dmdirc') {
+                    def targetProject = projectMap[dependency.requested.module]
+                    if (targetProject != null) {
+                         dependency.useTarget targetProject
+                    }
                 }
             }
-
-            conf.dependencies.removeAll(remove)
-        }
-
-        replace.each { rep ->
-            p.dependencies.add(rep.conf, projectMap[rep.dep.name], { transitive rep.transitive })
         }
     }
 }
