@@ -5,6 +5,7 @@ plugins {
 apply from: 'gradle/clover.gradle'
 apply from: 'gradle/local-dependency-change.gradle'
 apply from: 'gradle/javadoc.gradle'
+apply from: 'gradle/resolve-dependencies.gradle'
 
 subprojects.each { evaluationDependsOn it.path }
 tasks.dependencies.dependsOn subprojects*.tasks.dependencies

@@ -15,7 +15,7 @@ checkout:
 
 dependencies:
   override:
-    - ./gradlew --stacktrace client:dependencies plugins:dependencies
+    - ./gradlew --stacktrace resolveDependencies
 
 test:
   override:
