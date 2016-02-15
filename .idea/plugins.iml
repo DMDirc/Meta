@@ -10,50 +10,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="activewindow" />
-    <orderEntry type="module" module-name="audio" />
-    <orderEntry type="module" module-name="calc" />
-    <orderEntry type="module" module-name="conditional_execute" />
-    <orderEntry type="module" module-name="contactlist" />
-    <orderEntry type="module" module-name="dcc" />
-    <orderEntry type="module" module-name="dcop" />
-    <orderEntry type="module" module-name="debug" />
-    <orderEntry type="module" module-name="dns" />
-    <orderEntry type="module" module-name="exec" />
-    <orderEntry type="module" module-name="freedesktop_notifications" />
-    <orderEntry type="module" module-name="identd" />
-    <orderEntry type="module" module-name="lagdisplay" />
-    <orderEntry type="module" module-name="logging" />
-    <orderEntry type="module" module-name="mediasource_dbus" />
-    <orderEntry type="module" module-name="mediasource_dcop" />
-    <orderEntry type="module" module-name="mediasource_linux_title" />
-    <orderEntry type="module" module-name="mediasource_mplayer" />
-    <orderEntry type="module" module-name="mediasource_vlc" />
-    <orderEntry type="module" module-name="mediasource_windows" />
-    <orderEntry type="module" module-name="nickcolours" />
-    <orderEntry type="module" module-name="nma" />
-    <orderEntry type="module" module-name="notifications" />
-    <orderEntry type="module" module-name="nowplaying" />
-    <orderEntry type="module" module-name="osd" />
-    <orderEntry type="module" module-name="osx_integration" />
-    <orderEntry type="module" module-name="parser_irc" />
-    <orderEntry type="module" module-name="parser_xmpp" />
-    <orderEntry type="module" module-name="parserdebug" />
-    <orderEntry type="module" module-name="qauth" />
-    <orderEntry type="module" module-name="redirect" />
-    <orderEntry type="module" module-name="scriptplugin" />
-    <orderEntry type="module" module-name="sessionlock" />
-    <orderEntry type="module" module-name="systray" />
-    <orderEntry type="module" module-name="tabcompletion_bash" />
-    <orderEntry type="module" module-name="tabcompletion_mirc" />
-    <orderEntry type="module" module-name="time" />
-    <orderEntry type="module" module-name="ui_swing" />
-    <orderEntry type="module" module-name="windowflashing" />
-    <orderEntry type="module" module-name="windowstatus" />
-    <orderEntry type="module" module-name="awaycolours" />
-    <orderEntry type="module" module-name="channelwho" />
-    <orderEntry type="module" module-name="jpq" />
-    <orderEntry type="module" module-name="nickkeep" />
-    <orderEntry type="module" module-name="whoisonquery" />
   </component>
 </module>
