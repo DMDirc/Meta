@@ -9,13 +9,12 @@
       <sourceFolder url="file://$MODULE_DIR$/plugins/dcop/test" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/dcop/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/plugins/dcop/test-res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/plugins/dcop/generated" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/dcop/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/plugins/dcop/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="client" exported="" />
+    <orderEntry type="module" module-name="client" />
     <orderEntry type="library" exported="" name="Gradle: com.google.code.findbugs:jsr305:3.0.0" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.squareup.dagger:dagger-compiler:1.2.1" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.squareup.dagger:dagger:1.2.1" level="project" />
@@ -26,5 +25,19 @@
     <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.mockito:mockito-core:1.10.17" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.objenesis:objenesis:2.1" level="project" />
+    <orderEntry type="module" module-name="util" />
+    <orderEntry type="module" module-name="common" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.10" level="project" />
+    <orderEntry type="library" name="Gradle: com.esotericsoftware.yamlbeans:yamlbeans:1.08" level="project" />
+    <orderEntry type="library" name="Gradle: net.kencochrane.raven:raven:6.0.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Gradle: net.engio:mbassador:1.2.4" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.auto.value:auto-value:1.0" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: de.odysseus.juel:juel-api:2.2.7" level="project" />
+    <orderEntry type="library" name="Gradle: de.odysseus.juel:juel-impl:2.2.7" level="project" />
+    <orderEntry type="library" name="Gradle: de.odysseus.juel:juel-spi:2.2.7" level="project" />
   </component>
 </module>

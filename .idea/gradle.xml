@@ -14,7 +14,6 @@
             <option value="$PROJECT_DIR$/parser/irc" />
             <option value="$PROJECT_DIR$/parser/xmpp" />
             <option value="$PROJECT_DIR$/plugins" />
-            <option value="$PROJECT_DIR$/plugins/activewindow" />
             <option value="$PROJECT_DIR$/plugins/audio" />
             <option value="$PROJECT_DIR$/plugins/awaycolours" />
             <option value="$PROJECT_DIR$/plugins/calc" />
@@ -72,7 +71,6 @@
             <option value="$PROJECT_DIR$/parser/irc" />
             <option value="$PROJECT_DIR$/parser/xmpp" />
             <option value="$PROJECT_DIR$/plugins" />
-            <option value="$PROJECT_DIR$/plugins/activewindow" />
             <option value="$PROJECT_DIR$/plugins/audio" />
             <option value="$PROJECT_DIR$/plugins/awaycolours" />
             <option value="$PROJECT_DIR$/plugins/calc" />
