@@ -4,10 +4,25 @@ DMDirc
 DMDirc is an IRC client written in Java. It's cross-platform, hugely
 configurable, and is easily extensible with a robust plugins system.
 
+![DMDirc Screenshot](etcd/screenshot.png?raw=true)
+
+Getting DMDirc
+--------------------------------------------------------------------------------
+
+To download and run the latest stable version of DMDirc, download an installer
+or archive for your platform from
+[the releases page](https://github.com/DMDirc/DMDirc/releases).
+
+If there's not a distribution for your platform, you can download the Jar file
+instead. You will need to manually install OpenJDK 8 or newer in this case.
+
+Repositories
+--------------------------------------------------------------------------------
+
 This repository doesn't actually contain the source for DMDirc. Instead it's
 split over four different components, each with their own repository:
 
-* [client](https://github.com/DMDirc/client):
+* [client](https://github.com/DMDirc/DMDirc):
   contains the main guts of the client
 * [parser](https://github.com/DMDirc/parser):
   an interface for parsers and a full IRC parser
@@ -24,7 +39,7 @@ together — that's what this repository is for! Each of the components mentione
 above is included as a submodule, and there are some handy top-level build
 scripts for bundling everything together.
 
-Getting Started
+Development
 --------------------------------------------------------------------------------
 
 ### Prerequisites
@@ -83,7 +98,8 @@ they don't test how your change will affect DMDirc itself. It's good practice
 to run all of the tests in the project and compile and run an actual client to
 make sure everything actually still works!
 
-You can see an overview of open pull requests across all of the DMDirc projects [here](https://github.com/pulls?q=is%3Aopen+is%3Apr+user%3Admdirc).
+You can see an overview of open pull requests across all of the DMDirc projects
+[here](https://github.com/pulls?q=is%3Aopen+is%3Apr+user%3Admdirc).
 
 ### Continuous Integration and Code Coverage
 
