@@ -4,7 +4,7 @@ DMDirc
 DMDirc is an IRC client written in Java. It's cross-platform, hugely
 configurable, and is easily extensible with a robust plugins system.
 
-![DMDirc Screenshot](etcd/screenshot.png?raw=true)
+![DMDirc Screenshot](etc/screenshot.png?raw=true)
 
 Getting DMDirc
 --------------------------------------------------------------------------------
