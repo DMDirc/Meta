@@ -7,11 +7,9 @@
 
 # IDEA generated files
 /atlassian-ide-plugin.xml
-/.idea/workspace.xml
-/.idea/uiDesigner.xml
-/.idea/libraries
+/.idea
 
-#Netbeans generated files
+# Netbeans generated files
 /.nb-gradle/private/
 
 # DMDirc development profile

@@ -4,10 +4,25 @@ DMDirc
 DMDirc is an IRC client written in Java. It's cross-platform, hugely
 configurable, and is easily extensible with a robust plugins system.
 
+![DMDirc Screenshot](etc/screenshot.png?raw=true)
+
+Getting DMDirc
+--------------------------------------------------------------------------------
+
+To download and run the latest stable version of DMDirc, download an installer
+or archive for your platform from
+[the releases page](https://github.com/DMDirc/DMDirc/releases).
+
+If there's not a distribution for your platform, you can download the Jar file
+instead. You will need to manually install OpenJDK 8 or newer in this case.
+
+Repositories
+--------------------------------------------------------------------------------
+
 This repository doesn't actually contain the source for DMDirc. Instead it's
 split over four different components, each with their own repository:
 
-* [client](https://github.com/DMDirc/client):
+* [client](https://github.com/DMDirc/DMDirc):
   contains the main guts of the client
 * [parser](https://github.com/DMDirc/parser):
   an interface for parsers and a full IRC parser
@@ -24,7 +39,7 @@ together — that's what this repository is for! Each of the components mentione
 above is included as a submodule, and there are some handy top-level build
 scripts for bundling everything together.
 
-Getting Started
+Development
 --------------------------------------------------------------------------------
 
 ### Prerequisites
@@ -50,10 +65,19 @@ tests in the project:
 ### Using an IDE
 
 We strongly recommend using [IntelliJ IDEA](http://www.jetbrains.com/idea/).
-There are project files available in this repository which will load all of the
-subprojects properly, and configure IDEA with our preferred code style,
-license headers, etc. Simply tell IDEA to open a new project, and select the
-directory this repository is checked out to.
+To get started install IDEA 2016.1 or newer and follow these steps to import
+the project and enable annotation processing:
+
+  1. Select `Import project`
+  2. Select the `build.gradle` file in this directory
+  3. Ensure `Create separate module per source set` is ticked
+  4. Click OK; you should see a list of modules
+  5. Click OK; the IDE itself should now load
+  6. Open the main settings window (File -> Settings)
+  7. Under `Build, Execution and Deployment` navigate to `Compiler`, then
+     `Annotation Processors` (you can also use the search field)
+  8. Tick the box to enable annotation processing
+  9. Change the `Store generated sources relative to` option to `content root`
 
 ### Running the client
 
@@ -83,7 +107,8 @@ they don't test how your change will affect DMDirc itself. It's good practice
 to run all of the tests in the project and compile and run an actual client to
 make sure everything actually still works!
 
-You can see an overview of open pull requests across all of the DMDirc projects [here](https://github.com/pulls?q=is%3Aopen+is%3Apr+user%3Admdirc).
+You can see an overview of open pull requests across all of the DMDirc projects
+[here](https://github.com/pulls?q=is%3Aopen+is%3Apr+user%3Admdirc).
 
 ### Continuous Integration and Code Coverage
 
@@ -133,13 +158,3 @@ repository.
 The meta repository includes a gradle build script that finds these dependencies
 and replaces them with project links instead. This ensures that while developing
 the client your changes are reflected across modules properly.
-
-### Adding new projects
-
-To ensure all IDE configuration files are kept together in this repository,
-a few manual steps are required when adding a new project:
-
-After creating a new gradle project, refresh the root project in IDEA to create
-the .iml file in the project's base directory (e.g. `plugins/yourplugin/`).
-Then manually move the .iml file into `.idea` in this repository, and edit
-`.idea/modules.xml` to update the path.

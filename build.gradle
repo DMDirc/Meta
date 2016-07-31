@@ -10,8 +10,8 @@ apply from: 'gradle/resolve-dependencies.gradle'
 subprojects.each { evaluationDependsOn it.path }
 tasks.dependencies.dependsOn subprojects*.tasks.dependencies
 
-task createWrapper(type: Wrapper) {
+task wrapper(type: Wrapper) {
     description 'Downloads and installs an up-to-date wrapper for gradle.'
-    gradleVersion = '2.11'
+    gradleVersion = '2.14'
 }
 

@@ -8,6 +8,10 @@ include 'parser:common'
 include 'parser:irc'
 include 'parser:xmpp'
 
+project(':parser:common').name = 'parser-common'
+project(':parser:irc').name = 'parser-irc'
+project(':parser:xmpp').name = 'parser-xmpp'
+
 // Include all of the plugin projects
 project(':plugins').projectDir.eachDir() { File dir ->
   if (new File(dir, "src").directory) {
