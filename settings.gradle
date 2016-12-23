@@ -1,6 +1,7 @@
 rootProject.name = 'dmdirc'
 
 include 'client'
+include 'client:api'
 include 'util'
 include 'parser'
 include 'plugins'
@@ -8,6 +9,7 @@ include 'parser:common'
 include 'parser:irc'
 include 'parser:xmpp'
 
+project(':client:api').name = 'api'
 project(':parser:common').name = 'parser-common'
 project(':parser:irc').name = 'parser-irc'
 project(':parser:xmpp').name = 'parser-xmpp'
