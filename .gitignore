@@ -1,6 +1,7 @@
 # Gradle created directories
 /.gradle
 /build
+/out
 
 # Downloaded private settings
 /etc/clover/clover.license
@@ -13,7 +14,7 @@
 /.nb-gradle/private/
 
 # DMDirc development profile
-/etc/profile/*.*
+/etc/profile
 /etc/profile/actions
-/etc/profile/identities/*
+/etc/profile/identities
 !/etc/profile/identities/modealiases
