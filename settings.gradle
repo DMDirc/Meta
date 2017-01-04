@@ -2,7 +2,6 @@ rootProject.name = 'dmdirc'
 
 include 'client'
 include 'client:api'
-include 'client:bundles:com.dmdirc.events.eventbus'
 include 'util'
 include 'parser'
 include 'plugins'
@@ -24,5 +23,5 @@ project(':plugins').projectDir.eachDir() { File dir ->
 
 // Include all bundles
 new File(project(':client').projectDir, 'bundles').eachDir() { File dir ->
-  include 'client:' + dir.name
+  include 'client:bundles:' + dir.name
 }
