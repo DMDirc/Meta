@@ -20,3 +20,8 @@ project(':plugins').projectDir.eachDir() { File dir ->
     include 'plugins:' + dir.name
   }
 }
+
+// Include all bundles
+new File(project(':client').projectDir, 'bundles').eachDir() { File dir ->
+  include 'client:bundles:' + dir.name
+}
