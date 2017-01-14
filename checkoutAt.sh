@@ -30,7 +30,7 @@ if [ "${SHA1}" = "" -o ${RES} -ne 0 ]; then
 fi;
 
 CHECKOUTDIR="${PWD}"
-if [ ! -e "${CHECKOUTDIR}/settings.gradle" -o "`grep "rootProject.name = 'dmdirc'" settings.gradle 2>&1`" = "" ]; then
+if [ ! -e "${CHECKOUTDIR}/settings.gradle" -o "$(grep "rootProject.name = 'dmdirc'" settings.gradle 2>&1)" = "" ]; then
 	echo "'${PWD}' does not look like a DMDirc/meta checkout."
 	exit 1;
 fi;
@@ -45,16 +45,16 @@ getRepoDir() {
 }
 
 isCommit() {
-	if [ "`git cat-file -t "${1}" 2>&1`" = "commit" ]; then
+	if [ "$(git cat-file -t "${1}" 2>&1)" = "commit" ]; then
 		echo "0"
 	else
 		echo "1"
 	fi;
 }
 
-cd `getRepoDir "${REPO}"`
+cd $(getRepoDir "${REPO}")
 
-if [ `isCommit ${SHA1}` -eq 1 ]; then
+if [ $(isCommit ${SHA1}) -eq 1 ]; then
 	echo "Invalid commit in ${REPO}: ${SHA1}"
 	exit 1;
 fi;
@@ -72,14 +72,14 @@ git reset --hard
 git checkout -f ${SHA1}
 echo -e "\e[39m"
 
-THISTIME=`git show ${SHA1} --pretty=format:%ct`
+THISTIME=$(git show ${SHA1} --pretty=format:%ct)
 
 # Now get all the others...
 for R in "${VALID_REPOS[@]}"
 do
 	if [ "${R}" != "${REPO}" ]; then
-		cd `getRepoDir "${R}"`
-		RSHA1=`git rev-list -1 --before="${THISTIME}" --all`
+		cd $(getRepoDir "${R}")
+		RSHA1=$(git rev-list -1 --before="${THISTIME}" --all)
 		echo -ne "\e[32m"
 		echo "In ${R}: "
 		echo -ne "\e[93m"; git show ${RSHA1} -s --format="     Checking out: %H - %s"
