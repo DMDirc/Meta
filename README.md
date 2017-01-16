@@ -114,13 +114,13 @@ You can see an overview of open pull requests across all of the DMDirc projects
 
 The current CI and coverage status for the major projects are shown below:
 
-| Project | Status | Coverage |
-|:-------:|:------:|:--------:|
-| Meta    | [![Circle CI](https://circleci.com/gh/DMDirc/Meta.png?style=badge)](https://circleci.com/gh/DMDirc/Meta) | (No code) |
-| Client  | [![Circle CI](https://circleci.com/gh/DMDirc/DMDirc.png?style=badge)](https://circleci.com/gh/DMDirc/DMDirc)  | [![Coverage Status](https://img.shields.io/coveralls/DMDirc/DMDirc.svg)](https://coveralls.io/r/DMDirc/DMDirc?branch=master) |
-| Parser  | [![Circle CI](https://circleci.com/gh/DMDirc/Parser.png?style=badge)](https://circleci.com/gh/DMDirc/Parser)  | [![Coverage Status](https://img.shields.io/coveralls/DMDirc/Parser.svg)](https://coveralls.io/r/DMDirc/Parser?branch=master) |
-| Plugins | [![Circle CI](https://circleci.com/gh/DMDirc/Plugins.png?style=badge)](https://circleci.com/gh/DMDirc/Plugins) | [![Coverage Status](https://img.shields.io/coveralls/DMDirc/Plugins.svg)](https://coveralls.io/r/DMDirc/Plugins?branch=master) |
-| Util    | [![Circle CI](https://circleci.com/gh/DMDirc/Util.png?style=badge)](https://circleci.com/gh/DMDirc/Util) | [![Coverage Status](https://img.shields.io/coveralls/DMDirc/Util.svg)](https://coveralls.io/r/DMDirc/Util?branch=master) |
+| Project | Status | Coverage | Codacy |
+|:-------:|:------:|:--------:|:------:|
+| Meta    | [![Circle CI](https://circleci.com/gh/DMDirc/Meta.png?style=badge)](https://circleci.com/gh/DMDirc/Meta) | (No code) | (No code) |
+| Client  | [![Circle CI](https://circleci.com/gh/DMDirc/DMDirc.png?style=badge)](https://circleci.com/gh/DMDirc/DMDirc)  | [![Coverage Status](https://img.shields.io/coveralls/DMDirc/DMDirc.svg)](https://coveralls.io/r/DMDirc/DMDirc?branch=master) | [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d5e41553ac0940c7a57498cdf481a41a)](https://www.codacy.com/app/DMDirc/DMDirc) |
+| Parser  | [![Circle CI](https://circleci.com/gh/DMDirc/Parser.png?style=badge)](https://circleci.com/gh/DMDirc/Parser)  | [![Coverage Status](https://img.shields.io/coveralls/DMDirc/Parser.svg)](https://coveralls.io/r/DMDirc/Parser?branch=master) | [![Codacy Badge](https://api.codacy.com/project/badge/Grade/062d1bb47b1f48379600672155a70cf9)](https://www.codacy.com/app/DMDirc/Parser) |
+| Plugins | [![Circle CI](https://circleci.com/gh/DMDirc/Plugins.png?style=badge)](https://circleci.com/gh/DMDirc/Plugins) | [![Coverage Status](https://img.shields.io/coveralls/DMDirc/Plugins.svg)](https://coveralls.io/r/DMDirc/Plugins?branch=master) | [![Codacy Badge](https://api.codacy.com/project/badge/Grade/920da51fe86c4341a2ffa320d531cad3)](https://www.codacy.com/app/DMDirc/Plugins) |
+| Util    | [![Circle CI](https://circleci.com/gh/DMDirc/Util.png?style=badge)](https://circleci.com/gh/DMDirc/Util) | [![Coverage Status](https://img.shields.io/coveralls/DMDirc/Util.svg)](https://coveralls.io/r/DMDirc/Util?branch=master) | [![Codacy Badge](https://api.codacy.com/project/badge/Grade/8444740c995c403a9d559ffb0e3764f9)](https://www.codacy.com/app/DMDirc/Util) |
 
 ### Issues
 
