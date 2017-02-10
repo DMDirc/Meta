@@ -1,5 +1,6 @@
 # Gradle created directories
 /.gradle
+/.nb-gradle
 /build
 /out
 
