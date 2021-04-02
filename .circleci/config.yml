@@ -30,12 +30,15 @@ jobs:
           key: v1-gradle-cache-{{ checksum "build.gradle" }}
       - run:
           name: Prepare test output
+          when: always
           command: |
             mkdir -p ~/test-results/junit/
             find . -type f -regex ".*/build/test-results/.*xml" -exec cp {} ~/test-results/junit/ \;
       - store_test_results:
+          when: always
           path: ~/test-results
       - store_artifacts:
+          when: always
           path: ~/test-results/junit
       - store_artifacts:
           path: plugins/dist-versioned
@@ -50,12 +53,16 @@ jobs:
       - store_artifacts:
           path: build/libs/dmdirc-javadoc.jar
       - store_artifacts:
+          when: always
           path: client/build/reports/pmd/*
       - store_artifacts:
+          when: always
           path: plugins/pmd/*
       - store_artifacts:
+          when: always
           path: util/build/reports/pmd/*
       - store_artifacts:
+          when: always
           path: parser/build/reports/pmd/*
 workflows:
   version: 2
