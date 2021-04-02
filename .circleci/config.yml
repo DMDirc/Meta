@@ -1,0 +1,63 @@
+---
+version: 2
+
+jobs:
+  build:
+    environment:
+      TERM: dumb
+      _JAVA_OPTIONS: "-Xmx3g"
+      GRADLE_OPTS: "-Xmx2g -Dorg.gradle.daemon=false -Dorg.gradle.workers.max=2"
+    docker: # run the steps with Docker
+      - image: circleci/openjdk:8-jdk
+    steps:
+      - checkout
+      - restore_cache:
+          key: v1-gradle-wrapper-{{ checksum "gradle/wrapper/gradle-wrapper.properties" }}
+      - restore_cache:
+          key: v1-gradle-cache-{{ checksum "build.gradle" }}
+      - run: if [ -e .git/shallow ]; then git fetch --unshallow; fi
+      - run: git fetch --tags
+      - run: git submodule update --init --remote
+      - run: ./gradlew --stacktrace resolveDependencies
+      - run: ./gradlew --stacktrace jar test client:fatjar;
+      - save_cache:
+          paths:
+            - ~/.gradle/wrapper
+          key: v1-gradle-wrapper-{{ checksum "gradle/wrapper/gradle-wrapper.properties" }}
+      - save_cache:
+          paths:
+            - ~/.gradle/caches
+          key: v1-gradle-cache-{{ checksum "build.gradle" }}
+      - run:
+          command: |
+            mkdir -p ~/test-results/junit/
+            find . -type f -regex ".*/build/test-results/.*xml" -exec cp {} ~/test-results/junit/ \;
+      - store_test_results:
+          path: ~/test-results
+      - store_artifacts:
+          path: ~/test-results/junit
+      - store_artifacts:
+          path: plugins/dist-versioned
+      - store_artifacts:
+          path: client/build/libs
+      - store_artifacts:
+          path: util/build/libs
+      - store_artifacts:
+          path: parser/irc/build/libs
+      - store_artifacts:
+          path: parser/common/build/libs
+      - store_artifacts:
+          path: build/libs/dmdirc-javadoc.jar
+      - store_artifacts:
+          path: client/build/reports/pmd/*
+      - store_artifacts:
+          path: plugins/pmd/*
+      - store_artifacts:
+          path: util/build/reports/pmd/*
+      - store_artifacts:
+          path: parser/build/reports/pmd/*
+workflows:
+  version: 2
+  workflow:
+    jobs:
+    - build
